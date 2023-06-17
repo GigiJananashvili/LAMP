@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ 
+
+body {
+    background-color: black;
+}
+
+.header {
+    position: relative;  
+    border: solid rgb(46, 44, 44);
+    left: 0;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+ 
+
+.logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
+}
+
+
+
+
+.logo:hover {
+    transform: scale(1.1);
+
+}
+
+ 
+
+.nav {
+    position: absolute;
+    right: 3%;
+    display: flex;
+    margin:0 auto;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+ 
+
+.nav :first-child {
+    padding-right: 10px;
+
+}
+
+
+
+
+.navigation {
+    color: rgb(243, 239, 5);
+    text-decoration: none;
+    font-family: 'Nanum gothic';
+    font-size: 20px;
+}
+
+ 
+
+.navigation:hover {
+    color: red;
+
+}
+
+ 
+
+.container {  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    gap: 100px;
+    }
+
+ 
+
+    .cards-content {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top:5%;
+    }
+
+ 
+
+    .cards-content2 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top:10%;
+
+    }
+
+ 
+
+    .newCollection {
+        color: grey;
+        position: relative;
+        margin-top: 20px;
+        bottom: 20px;
+        display: inline;
+        left: 5%;
+        font-family: 'Nanum gothic';
+
+    }
+
+ 
+
+   .Newa {
+    text-decoration: none;
+   }
+
+ 
+
+   .Bests {
+    text-decoration: none;
+   }
+
+ 
+
+   .Bestsellers {
+    color: grey;
+    position: relative;
+    display: inline;
+    bottom: -30px;
+    left: 5%;
+    font-family: 'Nanum gothic';
+
+   }
+
+ 
+
+.newCollection:hover {
+    color: yellow;
+
+}
+
+ 
+
+.Bestsellers:hover {
+    color: yellow;
+
+}
+
+
+
+
+    .card1 {
+        position: relative;
+        background-image: url(assets/lamp1.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        border: solid rgb(146, 143, 143);
+        border-radius: 10px;
+        width: 350px;
+        height: 350px;
+
+    }
+
+ 
+
+    .card1:hover {
+        transform: scale(1.1);
+
+    }
+
+ 
+
+    .card2 {
+        position: relative;
+        background-image: url(assets/lamp2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: solid rgb(146, 143, 143);
+        border-radius: 10px;
+        width: 350px;
+        height: 350px;
+
+    }
+
+ 
+
+    .card2:hover {
+        transform: scale(1.1);
+
+    }
+
+ 
+
+    .card3 {
+        position: relative;
+        background-image: url(assets/lamp1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: solid rgb(146, 143, 143);
+        border-radius: 10px;
+        width: 350px;
+        height: 350px;
+    }
+
+ 
+
+    .card3:hover {
+        transform: scale(1.1);
+
+    }
+
+ 
+
+    .card4 {
+        position: relative;
+        background-image: url(assets/lamp2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: solid rgb(146, 143, 143);
+        border-radius: 10px;
+        width: 350px;
+        height: 350px;
+    }
+
+ 
+
+    .card4:hover {
+        transform: scale(1.1);
+
+    }
+
+ 
+
+    hr {
+        margin-left: 80px;
+        height: 1px;  
+        margin-top: 20px;
+        max-width: 90%;
+    }
+
+ 
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+ 
+
+    .images,:first-child {
+      right: 2%;
+
+    }
+
+ 
+
+    .image1 {
+        position: relative;
+        margin-left: 70PX;
+
+    }
+
+ 
+
+    .image2 {
+        position: relative;
+
+    }
+
+ 
+
+    .image3 {
+        position:relative;
+
+    }
+
+ 
+
+    .image4 {
+        position: relative;
+        left: 2%
+    }
+
+ 
+
+ 
+
+ 
+
+.Button {
+    position: absolute;
+    left:0;
+    top:0;
+    padding: 15px;
+    border: solid white;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    border-radius: 30px;
+    text-align: center;
+}
+
+ 
+
+.Button:hover {
+    color: black;
+    background-color: white;
+    border:solid black;
+
+}
+
+ 
+
+.imageP {
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    font-size: 50px;
+}
+
+ 
+
+.spanP {
+    font-weight: bold;
+    color: rgb(255, 252, 252);
+}
+
+ 
+
+/* Add a black background color to the top navigation bar */
+
+.topnav {
+    background-color: #080808;
+
+  }
+
+ 
+
+ 
+
+ 
+
+  /* Style the search box inside the navigation bar */
+
+  .topnav input[type=text] {
+    width: 500px;
+    float: right;
+    padding: 6px;
+    border: solid rgb(231, 227, 4);
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    color: rgb(240, 15, 7);
+
+  }
+
+ 
+
+  .moreh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -0.09em;
+    line-height: normal;
+    word-break: break-word;
+    cursor: pointer;
+    transition: all ease-in-out 0s;
+    outline: medium none !important;
+    overflow: hidden;
+    z-index: 1;
+    opacity: inherit;
+    visibility: visible;
+    position: relative;
+    transform: translateZ(0) scaleX(1);
+    backface-visibility: hidden;
+    will-change:auto;
+    user-select: none;
+    touch-action: manipulation;
+    min-width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+ 
+
+  .low-cards {
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    left: 2px;
+    gap: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+  }
+
+ 
+
+  .firstcard {
+    position: relative;
+    left: 5px;
+    border: solid rgb(226, 12, 12);
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    background-image: url(assets/firstC.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+
+  }
+
+ 
+
+  .cardp {
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 248, 248);
+    right: 120px;
+    top:180px ;
+
+  }
+
+ 
+
+  .cardh2 {
+    position: absolute;
+    color: white;
+    top:210px ;
+    left: 25px;
+
+  }
+
+ 
+
+  .cardB {
+    position: absolute;
+    top: 260px;
+    left: 70px;
+    border: solid rgb(241, 6, 6);
+    opacity: 0.5;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+
+  }
+
+ 
+
+  .cardB:hover {
+    color:rgb(199, 6, 6);
+    border: solid white;
+
+  }
+
+ 
+
+  .Secondcard {
+    position: relative;
+    border: solid rgb(226, 11, 11);
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    background-image: url(assets/secondC.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+
+  }
+
+ 
+
+  .Thirdcard {
+    position: relative;
+    border: solid rgb(216, 6, 6);
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    background-image: url(assets/ThirdC.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+
+  }
+
+ 
+
+  .Fourthcard {
+    position: relative;
+    border: solid rgb(226, 6, 6);
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    background-image: url(assets/firstC.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+ .test {
+position: relative;
+top: 150px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 30px;
+width: 1000px;
+position:relative ;
+align-items: center;
+top: 150px;
+color: white;
+ }
+
+ 
+
+ .pp {
+    margin-right: 25px;
+
+ }
+
+
+
+
+ 
+
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+
+    }
+
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+
+    }
+
+  }
