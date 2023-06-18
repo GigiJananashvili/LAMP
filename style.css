@@ -647,6 +647,7 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 }
 
 .insta  {
+    
     width: 50px;
     height: 47px;
 }
@@ -655,11 +656,80 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
     width: 50px;
     height: 50px;
 }
+
+.containerb {
+  display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.menu a {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Show the menu */
+.show-menu .menu {
+  display: block;
+}
+
+
+  @media screen and (max-width: 1600px){
+    .containerb{
+        position: absolute;
+        right: 5%;
+        display: inline-block;
+    }
+
+    .bar1, .bar2, .bar3 {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+  }
+
  
 
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 830px) {
     .topnav a, .topnav input[type=text] {
       float: none;
       display: block;
@@ -676,3 +746,21 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
     }
 
   }
+
+  @media screen and (max-width: 550px) {
+
+    .header {
+      width: 100%;
+      left: 2%;
+    }
+
+    .logo {
+      position:absolute;
+      width: 50px;
+      height: 80px;
+      bottom:30% ;
+    }
+
+    }
+
+ 
