@@ -561,6 +561,7 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
     position: relative;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     border: solid grey;
     border-radius: 20px;
     margin-top: 300px;
