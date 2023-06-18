@@ -169,6 +169,7 @@ body {
 
     .card1 {
         position: relative;
+        left: -0.3%;
         background-image: url(assets/lamp1.png);
         background-size:contain;
         background-repeat: no-repeat;
@@ -190,7 +191,7 @@ body {
 
     .card2 {
         position: relative;
-        background-image: url(assets/lamp2.png);
+        background-image: url(assets/lamp5.png);
         background-size: cover;
         background-repeat: no-repeat;
         border: solid rgb(146, 143, 143);
@@ -211,7 +212,7 @@ body {
 
     .card3 {
         position: relative;
-        background-image: url(assets/lamp1.png);
+        background-image: url(assets/lamp2.png);
         background-size: contain;
         background-repeat: no-repeat;
         border: solid rgb(146, 143, 143);
@@ -231,7 +232,7 @@ body {
 
     .card4 {
         position: relative;
-        background-image: url(assets/lamp2.png);
+        background-image: url(assets/lamp6.png);
         background-size: contain;
         background-repeat: no-repeat;
         border: solid rgb(146, 143, 143);
@@ -545,16 +546,92 @@ width: 1000px;
 position:relative ;
 align-items: center;
 top: 150px;
-color: white;
+background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
  }
 
- 
+ .ht {
+    color: white;
+ }
 
  .pp {
     margin-right: 25px;
 
  }
 
+
+
+ .footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: solid grey;
+    border-radius: 20px;
+    margin-top: 300px;
+    padding-bottom: 200px;
+    gap: 25%;
+       
+ }
+
+ .firstf {
+    padding-left: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .secondf {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+ }
+
+ .thirdf{
+    padding-right: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;
+ }
+
+ .about {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .service {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+ .more {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .af {
+    text-decoration: none;
+    color: rgb(80, 76, 76);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+ .af:hover {
+background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 
 
 
