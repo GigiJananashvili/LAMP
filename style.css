@@ -536,7 +536,7 @@ body {
 
 
  .test {
-position: relative;
+margin: 20px;
 top: 150px;
 display: flex;
 justify-content: center;
@@ -747,11 +747,10 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 390px) {
 
     .header {
-      width: 100%;
-      left: 2%;
+      width: 100%; 
     }
 
     .logo {
@@ -760,6 +759,81 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
       height: 80px;
       bottom:30% ;
     }
+
+    hr{
+      margin-right: 90px;
+    }
+
+.moreh1{
+  font-size: 25px;
+}
+
+    .images {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-top: 80px;
+  }
+
+.imageP {
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  font-size: 30px;
+
+}
+
+.image1 {
+margin-right: 40px;
+}
+
+.image2{
+  margin-left: 15px;
+}
+
+.image3 {
+  margin-left: 15px;
+}
+
+
+.img1 {
+  width: 360px;
+  height: 400px;
+}
+
+
+.img2 {
+width: 360px;
+height:400px;
+}
+
+.img3 {
+  width: 360px;
+  height: 400px;
+}
+
+.img4 {
+  width: 360px;
+  height: 400px;
+}
+
+.secondf{
+  margin-right: 40px;
+}
+
+.thirdf{
+
+  margin-left: 50px;
+}
+
+.social-media{
+
+margin-left: 50px;
+}
 
     }
 
