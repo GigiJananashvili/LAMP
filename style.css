@@ -747,7 +747,7 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 
   }
 
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 400px) {
 
     .header {
       width: 100%; 
@@ -760,6 +760,13 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
       bottom:30% ;
     }
 
+.lampm{
+  width: 350px;
+  height: 350px;
+}
+
+
+
     hr{
       margin-right: 90px;
     }
@@ -769,11 +776,12 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 }
 
     .images {
+      margin-right: 40px;
+      width: 390px;
       display: flex;
       flex-direction: column;
       position: relative;
       flex-wrap: wrap;
-      gap: 10px;
       align-items: center;
       margin-top: 80px;
   }
@@ -788,7 +796,7 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 }
 
 .image1 {
-margin-right: 40px;
+right: 6%;
 }
 
 .image2{
