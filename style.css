@@ -76,6 +76,7 @@ body {
 
 }
 
+
  
 
 .container {  
@@ -695,7 +696,7 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 }
 
 
-  @media screen and (max-width: 1600px){
+  @media screen and (max-width: 1000px){
     .containerb{
         position: absolute;
         right: 5%;
@@ -709,7 +710,11 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
     .nav {
         display: none;
     }
-  }
+    .lampm
+    {
+      width: 500px;
+      height: 500px;
+    }
 
  
 
