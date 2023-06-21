@@ -811,7 +811,10 @@ margin-left: 50px;
       font-size: 28px;
     }
  
-
+    .lampm{
+      width: 350px;
+      height: 350px;
+    }
   
 
   @media screen and (max-width: 400px) {
