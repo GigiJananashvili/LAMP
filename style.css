@@ -696,7 +696,13 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 }
 
 
-  @media screen and (max-width: 1000px){
+
+.lampm {
+  width: 500px;
+  height: 500px;
+}
+
+  @media screen and (max-width: 1400px){
     .containerb{
         position: absolute;
         right: 5%;
@@ -710,11 +716,7 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
     .nav {
         display: none;
     }
-    .lampm
-    {
-      width: 500px;
-      height: 500px;
-    }
+ 
   }
  
 
@@ -811,15 +813,32 @@ height:400px;
 margin-left: 50px;
 }
 
+
+.moreh1{
+  font-size: 28px;
+}
+
+.lampm{
+  width: 350px;
+  height: 350px;
+}
+
+
+.cardh2{
+  font-size: 21px;
+  margin-left: 20px; 
+
+}
+
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .lasth {
+      font-size: 25px;
     }
-    .moreh1{
-      font-size: 28px;
-    }
- 
-    .lampm{
-      width: 350px;
-      height: 350px;
-    }
+
+  }
   
 
   @media screen and (max-width: 400px)  {
@@ -839,6 +858,11 @@ margin-left: 50px;
   width: 350px;
   height: 350px;
 }
+
+.lasth {
+  font-size: 20px;
+}
+
 
 
 
