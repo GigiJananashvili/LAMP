@@ -715,7 +715,7 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
       width: 500px;
       height: 500px;
     }
-
+  }
  
 
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -822,7 +822,7 @@ margin-left: 50px;
     }
   
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 400px)  {
 
     .header {
       width: 100%; 
@@ -914,10 +914,7 @@ height:400px;
 }
 
 .social-media{
-
 margin-left: 50px;
 }
 
     }
-
- 
