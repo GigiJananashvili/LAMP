@@ -31,13 +31,14 @@ body {
     position: absolute;
     left: 3%;
     bottom: 10%;
+    transition-duration: 1s;
 }
 
 
 
 
 .logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.1)
 
 }
 
@@ -67,13 +68,14 @@ body {
     text-decoration: none;
     font-family: 'Nanum gothic';
     font-size: 20px;
+    transition-duration: 1s;
 }
 
  
 
 .navigation:hover {
     color: red;
-
+    transform:translate(0px,10px) 
 }
 
 
@@ -700,7 +702,16 @@ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, 
 .lampm {
   width: 500px;
   height: 500px;
+  animation: light 3s infinite;
 }
+
+@keyframes light {
+  0% {opacity : 1;}
+  50% {opacity : 0.3;}
+  100% {opacity : 1;}
+}
+
+
 
   @media screen and (max-width: 1400px){
     .containerb{
